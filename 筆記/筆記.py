@@ -1,0 +1,10 @@
+'''
+max
+min
+list
+len
+split
+img
+.copy
+append
+'''
