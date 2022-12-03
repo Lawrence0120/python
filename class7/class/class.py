@@ -1,16 +1,3 @@
-juices = ['蘋果汁', '柳橙汁', '葡萄汁', '可樂', '系統關閉']
-while True:
-    for i in range(len(juices)):
-        print(f'{i + 1}. {juices[i]}')
-    ans = int(input('請輸入編號:'))
-    if ans == len(juices):
-        print("~~系統關閉~~")
-        break
-    elif ans > len(juices) or ans <= 0:
-        print("輸入錯誤查無果汁，請重新輸入")
-    else:
-        print(f"您點的商品是{juices[ans-1]}")
-
 # import random as r
 
 # print(r.randrange(3))
