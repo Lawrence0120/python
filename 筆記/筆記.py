@@ -5,6 +5,7 @@ list
 len
 split
 img
-.copy
+copy
 append
+remove
 '''
