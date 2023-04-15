@@ -28,9 +28,7 @@ def test():
 
 
 windows = tk.Tk()
-
 windows.title("Lawrence")
-
 windows.option_add("*font", ("Helvetica", 20))
 style = Style(theme='cyborg')
 style.configure('TButton', font=('Helvetica', 20))
